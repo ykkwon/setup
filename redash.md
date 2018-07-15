@@ -1,4 +1,6 @@
-rename *docker-compose.product.yml* to **docker-compose.yml**
+- rename *docker-compose.product.yml* to **docker-compose.yml**
+- postgres data volume setting
+
 ```
 $ docker-compose up -d postgres redis
 $ docker-compose run --rm server create_db
